@@ -13,13 +13,14 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground dark">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Hero Section */}
-        <div className="flex flex-col md:flex-row items-center gap-8 mb-10">
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-2">
           {/* Profile Image */}
           <div className="flex-shrink-0 fade-in-bottom">
             <Avatar className="w-48 h-48">
               {/* <AvatarImage src={profileImage} alt="Photo" /> */}
               <AvatarFallback>SG</AvatarFallback>
             </Avatar>
+            <FloatingDockDemo></FloatingDockDemo>
           </div>
 
           {/* Content */}
@@ -33,29 +34,11 @@ export default function Home() {
               machine learning, and computer vision. I enjoy building applications
               that solve real-world problems and contributing to the scientific community through
               research and publications.
+              
             </span>
             {/* <TypewriterAnimation className="fade-in-bottom"/> */}
 
-            <FloatingDockDemo></FloatingDockDemo>
-            {/* <div className="flex justify-center md:justify-start gap-4 fade-in-bottom-later">
-              
-              <Button variant="outline" size="sm" className="gap-2 bigger-hover">
-                <FileText className="w-4 h-4" />
-                Resume
-              </Button>
-              <Button variant="outline" size="sm" className="gap-2 bigger-hover">
-                <Linkedin className="w-4 h-4" />
-                LinkedIn
-              </Button>
-              <Button variant="outline" size="sm" className="gap-2 bigger-hover">
-                <Github className="w-4 h-4" />
-                GitHub
-              </Button>
-              <Button variant="outline" size="sm" className="gap-2 bigger-hover">
-                <Mail className="w-4 h-4" />
-                Contact
-              </Button>
-            </div> */}
+            
           </div>
         </div>
         <TabsDemo />
