@@ -1,7 +1,8 @@
 "use client";
 
 import { Tabs } from "./tabs";
-
+import { Projects } from "./projects"
+import { Experience } from "./Experience"
 export function TabsDemo() {
   const tabs = [
     {
@@ -18,9 +19,10 @@ export function TabsDemo() {
       title: "Experience",
       value: "experience",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Experience</p>
-          <DummyContent />
+        <div > 
+          {/* className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900" */}
+          {/* <p>Experience</p> */}
+          <Experience/>
         </div>
       ),
     },
@@ -28,9 +30,9 @@ export function TabsDemo() {
       title: "Projects",
       value: "projects",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Projects</p>
-          <DummyContent />
+        <div >
+          {/* <p>Projects</p> */}
+          <Projects />
         </div>
       ),
     },

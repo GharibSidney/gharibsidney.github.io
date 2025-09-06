@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 mb-2">
           {/* Profile Image */}
           <div className="flex-shrink-0 fade-in-bottom">
-            <Avatar className="w-48 h-48">
+            <Avatar className="w-48 h-48 mb-2">
               {/* <AvatarImage src={profileImage} alt="Photo" /> */}
               <AvatarFallback>SG</AvatarFallback>
             </Avatar>
@@ -34,11 +34,9 @@ export default function Home() {
               machine learning, and computer vision. I enjoy building applications
               that solve real-world problems and contributing to the scientific community through
               research and publications.
-              
             </span>
             {/* <TypewriterAnimation className="fade-in-bottom"/> */}
 
-            
           </div>
         </div>
         <TabsDemo />
