@@ -2,69 +2,62 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./card";
 import { Badge } from "./badge";
 import { Separator } from "./Separator";
+
 export const Experience = () => {
     return (
-        <Card>
+        <Card className="h-full flex flex-col">
             <CardHeader>
                 <CardTitle>Work Experience</CardTitle>
                 <CardDescription>My professional journey</CardDescription>
             </CardHeader>
-            <CardContent className="space-y-6">
-                <div className="border-l-2 border-primary pl-4 space-y-4">
-                    <div>
-                        <div className="flex items-center gap-2 mb-2">
-                            <h3>Senior Software Engineer</h3>
-                            <Badge variant="secondary">Current</Badge>
+            <CardContent className="h-half overflow-hidden">
+                <div className="h-full overflow-y-auto pr-2 space-y-6 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 hover:scrollbar-thumb-gray-500">
+                    <div className="border-l-2 border-primary pl-4 space-y-4">
+                        <div>
+                            <div className="flex items-center gap-2 mb-2">
+                                <h3>Software Developer Intern</h3>
+                                {/* <Badge variant="secondary">Current</Badge> */}
+                            </div>
+                            <p className="text-muted-foreground mb-2">Teledyne DALSA • Summer 2025 </p>
+                            <p className="text-sm">Designed deep learning models for computer vision applications that improved the accuracy and efficiency of optical character recognition (OCR) algorithms.</p>
+                            <div className="flex gap-2 flex-wrap mt-2">
+                                <Badge variant="outline" className="text-xs">Pytorch</Badge>
+                                <Badge variant="outline" className="text-xs">C++</Badge>
+                                <Badge variant="outline" className="text-xs">Literature review</Badge>
+                            </div>
                         </div>
-                        <p className="text-muted-foreground mb-2">TechCorp Inc. • 2022 - Present</p>
-                        <p className="text-sm">Leading development of cloud-native applications using React, Node.js, and AWS. Mentoring junior developers and architecting scalable solutions.</p>
-                        <div className="flex gap-2 flex-wrap mt-2">
-                            <Badge variant="outline" className="text-xs">React</Badge>
-                            <Badge variant="outline" className="text-xs">Node.js</Badge>
-                            <Badge variant="outline" className="text-xs">AWS</Badge>
-                            <Badge variant="outline" className="text-xs">Team Leadership</Badge>
+                        <Separator />
+                        
+                        <div>
+                            <h3>Research Intern</h3>
+                            <p className="text-muted-foreground mb-2">Polytechnique Montréal LITIV LAB • September 2024 – May 2025</p>
+                            <p className="text-sm">Evaluated LLM by testing its generalization abilities on novel image datasets that differ from the training data.</p>
+                            <div className="flex gap-2 flex-wrap mt-2">
+                                <Badge variant="outline" className="text-xs">Python</Badge>
+                                <Badge variant="outline" className="text-xs">Vision LLM</Badge>
+                            </div>
                         </div>
-                    </div>
-
-                    <Separator />
-
-                    <div>
-                        <h3>Full Stack Developer</h3>
-                        <p className="text-muted-foreground mb-2">StartupXYZ • 2020 - 2022</p>
-                        <p className="text-sm">Built and maintained web applications from concept to deployment. Worked with modern JavaScript frameworks and microservices architecture.</p>
-                        <div className="flex gap-2 flex-wrap mt-2">
-                            <Badge variant="outline" className="text-xs">JavaScript</Badge>
-                            <Badge variant="outline" className="text-xs">Vue.js</Badge>
-                            <Badge variant="outline" className="text-xs">Microservices</Badge>
-                            <Badge variant="outline" className="text-xs">Docker</Badge>
+                        <Separator />
+                        
+                        <div>
+                            <h3>Research Intern</h3>
+                            <p className="text-muted-foreground mb-2">Polytechnique Montréal VISIONIC LAB • April 2024 – August 2024</p>
+                            <p className="text-sm">Developed a 3D reconstruction system using stereo camera and Intel RealSense technologies, and programmed finger index direction detection algorithms using Mediapipe and OpenCV</p>
+                            <div className="flex gap-2 flex-wrap mt-2">
+                                <Badge variant="outline" className="text-xs">OpenCV</Badge>
+                                <Badge variant="outline" className="text-xs">Python</Badge>
+                            </div>
                         </div>
-                    </div>
-
-                    <Separator />
-
-                    <div>
-                        <h3>Software Developer</h3>
-                        <p className="text-muted-foreground mb-2">CodeWorks • 2018 - 2020</p>
-                        <p className="text-sm">Developed responsive web applications and RESTful APIs. Collaborated with design teams to implement pixel-perfect user interfaces.</p>
-                        <div className="flex gap-2 flex-wrap mt-2">
-                            <Badge variant="outline" className="text-xs">HTML/CSS</Badge>
-                            <Badge variant="outline" className="text-xs">JavaScript</Badge>
-                            <Badge variant="outline" className="text-xs">Python</Badge>
-                            <Badge variant="outline" className="text-xs">REST APIs</Badge>
-                        </div>
-                    </div>
-
-                    <Separator />
-
-                    <div>
-                        <h3>Junior Developer</h3>
-                        <p className="text-muted-foreground mb-2">WebTech Solutions • 2017 - 2018</p>
-                        <p className="text-sm">Entry-level position focused on front-end development and learning industry best practices. Contributed to various client projects and internal tools.</p>
-                        <div className="flex gap-2 flex-wrap mt-2">
-                            <Badge variant="outline" className="text-xs">HTML/CSS</Badge>
-                            <Badge variant="outline" className="text-xs">jQuery</Badge>
-                            <Badge variant="outline" className="text-xs">Bootstrap</Badge>
-                            <Badge variant="outline" className="text-xs">Git</Badge>
+                        <Separator />
+                        
+                        <div>
+                            <h3>Software Quality Assurance Intern</h3>
+                            <p className="text-muted-foreground mb-2">COVEO • May 2023 – August 2023</p>
+                            <p className="text-sm">Developed over 20 End-to-End tests in TypeScript to increase test coverage by 40%.</p>
+                            <div className="flex gap-2 flex-wrap mt-2">
+                                <Badge variant="outline" className="text-xs">TypeScript</Badge>
+                                <Badge variant="outline" className="text-xs">JavaScript</Badge>
+                            </div>
                         </div>
                     </div>
                 </div>

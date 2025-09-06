@@ -1,17 +1,17 @@
 "use client";
-
 import { Tabs } from "./tabs";
 import { Projects } from "./projects"
 import { Experience } from "./Experience"
+import { Publications } from "./publications";
+
 export function TabsDemo() {
   const tabs = [
     {
       title: "Publications",
       value: "publications",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Publications</p>
-          <DummyContent />
+        <div className="h-full overflow-hidden">
+          <Publications />
         </div>
       ),
     },
@@ -19,9 +19,7 @@ export function TabsDemo() {
       title: "Experience",
       value: "experience",
       content: (
-        <div > 
-          {/* className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900" */}
-          {/* <p>Experience</p> */}
+        <div className="h-full overflow-hidden">
           <Experience/>
         </div>
       ),
@@ -30,26 +28,15 @@ export function TabsDemo() {
       title: "Projects",
       value: "projects",
       content: (
-        <div >
-          {/* <p>Projects</p> */}
+        <div className="h-full overflow-hidden">
           <Projects />
-        </div>
-      ),
-    },
-    {
-      title: "Company",
-      value: "company",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Company</p>
-          <DummyContent />
         </div>
       ),
     },
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:500px]   ">
+    <div className="h-[35rem] md:h-[40rem] [perspective:500px]">
       <Tabs tabs={tabs} />
     </div>
   );
@@ -62,7 +49,7 @@ const DummyContent = () => {
       alt="dummy image"
       width="500"
       height="500"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+      className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
     />
   );
 };
