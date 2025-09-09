@@ -21,7 +21,7 @@ export const Experience = () => {
                             <p className="text-muted-foreground mb-2">Teledyne DALSA • Summer 2025 </p>
                             <p className="text-sm">Designed deep learning models for computer vision applications that improved the accuracy and efficiency of optical character recognition (OCR) algorithms.</p>
                             <div className="flex gap-2 flex-wrap mt-2">
-                                <Badge variant="outline" className="text-xs">Pytorch</Badge>
+                                <Badge variant="outline" className="text-xs">PyTorch</Badge>
                                 <Badge variant="outline" className="text-xs">C++</Badge>
                                 <Badge variant="outline" className="text-xs">Literature review</Badge>
                             </div>
