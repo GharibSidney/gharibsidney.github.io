@@ -27,7 +27,6 @@ export const Experience = () => {
                             </div>
                         </div>
                         <Separator />
-                        
                         <div>
                             <h3>Research Intern</h3>
                             <p className="text-muted-foreground mb-2">Polytechnique Montréal LITIV LAB • September 2024 – May 2025</p>
@@ -38,7 +37,6 @@ export const Experience = () => {
                             </div>
                         </div>
                         <Separator />
-                        
                         <div>
                             <h3>Research Intern</h3>
                             <p className="text-muted-foreground mb-2">Polytechnique Montréal VISIONIC LAB • April 2024 – August 2024</p>
@@ -49,7 +47,6 @@ export const Experience = () => {
                             </div>
                         </div>
                         <Separator />
-                        
                         <div>
                             <h3>Software Quality Assurance Intern</h3>
                             <p className="text-muted-foreground mb-2">COVEO • May 2023 – August 2023</p>
@@ -57,6 +54,16 @@ export const Experience = () => {
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">TypeScript</Badge>
                                 <Badge variant="outline" className="text-xs">JavaScript</Badge>
+                            </div>
+                        </div>
+                        <Separator />
+                        <div>
+                            <h3>Database Developer Intern</h3>
+                            <p className="text-muted-foreground mb-2">NB Automation • January 2021 – August 2021</p>
+                            <p className="text-sm">Developed an identification system for a patient that reduced the number of monthly calls to of customer service by 20%</p>
+                            <div className="flex gap-2 flex-wrap mt-2">
+                                <Badge variant="outline" className="text-xs">Clarion</Badge>
+                                <Badge variant="outline" className="text-xs">SQL</Badge>
                             </div>
                         </div>
                     </div>
