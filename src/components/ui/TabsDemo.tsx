@@ -3,6 +3,7 @@ import { Tabs } from "./tabs";
 import { Projects } from "./projects"
 import { Experience } from "./Experience"
 import { Publications } from "./publications";
+import { Awards } from "./Awards"
 
 export function TabsDemo() {
   const tabs = [
@@ -30,6 +31,15 @@ export function TabsDemo() {
       content: (
         <div className="h-full overflow-hidden">
           <Projects />
+        </div>
+      ),
+    },
+        {
+      title: "Awards",
+      value: "awards",
+      content: (
+        <div className="h-full overflow-hidden">
+          <Awards />
         </div>
       ),
     },
