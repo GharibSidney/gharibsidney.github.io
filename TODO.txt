@@ -1,0 +1,3 @@
+- Fix socials on mobile
+- Fix font scale
+- Added website link (github)
