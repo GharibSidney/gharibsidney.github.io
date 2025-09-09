@@ -16,8 +16,8 @@ export const Projects = () => {
               <CardTitle className="text-lg">Vision Models for Residual Waste</CardTitle>
               <div className="flex gap-2 flex-wrap">
                 <Badge variant="outline">PyTorch</Badge>
-                <Badge variant="outline">SQL</Badge>
-                <Badge variant="outline">PowerBI</Badge>
+                <Badge variant="outline">Computer Vision</Badge>
+                <Badge variant="outline">Deep Learning</Badge>
                 <a href="https://www.linkedin.com/posts/palais-des-congres-de-montreal_palaismontraezal-ia-aiproject-activity-7361014861155160064-xJlP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkuZokBAndaRMfyPe_mf1NNwEOkDJGAFNU">
                   <Badge variant="destructive">LinkedIn Post</Badge>
                 </a>
@@ -25,7 +25,7 @@ export const Projects = () => {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Developed and trained vision models to detect and quantify waste from recycle bin to containers
+                Developed and trained vision models to detect and quantify waste from recycle bin to containers.
               </p>
             </CardContent>
           </Card>
@@ -51,32 +51,34 @@ export const Projects = () => {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg">Mobile E-commerce App</CardTitle>
+              <CardTitle className="text-lg">LoanneAI</CardTitle>
               <div className="flex gap-2 flex-wrap">
-                <Badge variant="outline">React Native</Badge>
-                <Badge variant="outline">Redux</Badge>
-                <Badge variant="outline">Stripe</Badge>
+                <Badge variant="outline">Prompt Engineering</Badge>
+                <Badge variant="outline">LLMs</Badge>
+                <Badge variant="outline">TypeScript</Badge>
+                <Badge variant="destructive">TBA</Badge>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Cross-platform mobile application with secure payment processing, inventory management, and push notifications.
+                Google Chrome extension to enhance email writing productivity.
               </p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg">IoT Monitoring System</CardTitle>
+              <CardTitle className="text-lg">My Website</CardTitle>
               <div className="flex gap-2 flex-wrap">
-                <Badge variant="outline">Node.js</Badge>
-                <Badge variant="outline">MongoDB</Badge>
-                <Badge variant="outline">MQTT</Badge>
+                <Badge variant="outline">React</Badge>
+                <Badge variant="outline">TypeScript</Badge>
+                <Badge variant="outline">Next.js</Badge>
+                <a href="#"><Badge variant="destructive">GitHub</Badge></a>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Real-time monitoring system for IoT devices with automated alerts, data logging, and predictive maintenance features.
+                You like my Website? Feel free to copy it! The repo's link is available on the red button.
               </p>
             </CardContent>
           </Card>
