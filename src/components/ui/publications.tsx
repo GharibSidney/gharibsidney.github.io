@@ -21,8 +21,9 @@ export const Publications = () => {
               Contributed to the integration of detection and classification models, focusing on 3D hand reconstruction and finger orientation tracking in 3D environments.
             </p>
             <div className="flex gap-2">
-              <Badge variant="secondary">Computer Vision</Badge>
-              <Badge variant="secondary">Deep Learning </Badge>
+              <Badge variant="outline">Computer Vision</Badge>
+              <Badge variant="outline">Deep Learning </Badge>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110"><Badge variant="destructive">Paper</Badge></a>
             </div>
             <StickyScrollRevealDemo />
           </div>
