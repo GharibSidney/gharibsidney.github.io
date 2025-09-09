@@ -54,7 +54,7 @@ const content = [
     {
         title: "Finger direction in 3D space",
         description:
-            "After detecting the index finger keypoints in both camera feeds, I implemented a program to reconstruct 2D points into 3D space using stereo calibration data. This process was applied to all three index finger points detected by MediaPipe.",
+            "After detecting the index finger key points in both camera feeds, I implemented a program to reconstruct 2D points into 3D space using stereo calibration data. This process was applied to all three index finger points detected by MediaPipe.",
         content: (
             <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
                 <img
