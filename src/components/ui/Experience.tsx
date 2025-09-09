@@ -19,7 +19,7 @@ export const Experience = () => {
                                 {/* <Badge variant="secondary">Current</Badge> */}
                             </div>
                             <p className="text-muted-foreground mb-2">Teledyne DALSA • Summer 2025 </p>
-                            <p className="text-sm">Designed deep learning models for computer vision applications that improved the accuracy and efficiency of optical character recognition (OCR) algorithms.</p>
+                            <p className="text-base">Designed deep learning models for computer vision applications that improved the accuracy and efficiency of optical character recognition (OCR) algorithms.</p>
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">PyTorch</Badge>
                                 <Badge variant="outline" className="text-xs">C++</Badge>
@@ -30,7 +30,7 @@ export const Experience = () => {
                         <div>
                             <h3>Research Intern</h3>
                             <p className="text-muted-foreground mb-2">Polytechnique Montréal LITIV LAB • September 2024 – May 2025</p>
-                            <p className="text-sm">Evaluated LLM by testing its generalization abilities on novel image datasets that differ from the training data.</p>
+                            <p className="text-base">Evaluated LLM by testing its generalization abilities on novel image datasets that differ from the training data.</p>
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">Python</Badge>
                                 <Badge variant="outline" className="text-xs">Vision LLM</Badge>
@@ -40,7 +40,7 @@ export const Experience = () => {
                         <div>
                             <h3>Research Intern</h3>
                             <p className="text-muted-foreground mb-2">Polytechnique Montréal VISIONIC LAB • April 2024 – August 2024</p>
-                            <p className="text-sm">Developed a 3D reconstruction system using stereo camera and Intel RealSense technologies, and programmed finger index direction detection algorithms using Mediapipe and OpenCV</p>
+                            <p className="text-base">Developed a 3D reconstruction system using stereo camera and Intel RealSense technologies, and programmed finger index direction detection algorithms using Mediapipe and OpenCV</p>
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">OpenCV</Badge>
                                 <Badge variant="outline" className="text-xs">Python</Badge>
@@ -50,7 +50,7 @@ export const Experience = () => {
                         <div>
                             <h3>Software Quality Assurance Intern</h3>
                             <p className="text-muted-foreground mb-2">COVEO • May 2023 – August 2023</p>
-                            <p className="text-sm">Developed over 20 End-to-End tests in TypeScript to increase test coverage by 40%.</p>
+                            <p className="text-base">Developed over 20 End-to-End tests in TypeScript to increase test coverage by 40%.</p>
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">TypeScript</Badge>
                                 <Badge variant="outline" className="text-xs">JavaScript</Badge>
@@ -60,7 +60,7 @@ export const Experience = () => {
                         <div>
                             <h3>Database Developer Intern</h3>
                             <p className="text-muted-foreground mb-2">NB Automation • January 2021 – August 2021</p>
-                            <p className="text-sm">Developed an identification system for a patient that reduced the number of monthly calls to of customer service by 20%</p>
+                            <p className="text-base">Developed an identification system for a patient that reduced the number of monthly calls to of customer service by 20%</p>
                             <div className="flex gap-2 flex-wrap mt-2">
                                 <Badge variant="outline" className="text-xs">Clarion</Badge>
                                 <Badge variant="outline" className="text-xs">SQL</Badge>

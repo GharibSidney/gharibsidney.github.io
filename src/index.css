@@ -71,7 +71,6 @@
 }
 
 @layer theme {
-
   :root,
   :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -83,16 +82,16 @@
     --container-sm: 24rem;
     --container-lg: 32rem;
     --container-4xl: 56rem;
-    --text-xs: .75rem;
+    --text-xs: 2.1875rem;    /* was 1.75rem */
     --text-xs--line-height: calc(1 / .75);
-    --text-sm: .875rem;
+    --text-sm: 1.09375rem;   /* was .875rem */
     --text-sm--line-height: calc(1.25 / .875);
-    --text-base: 1rem;
+    --text-base: 1.25rem;    /* was 1rem */
     --text-base--line-height: calc(1.5 / 1);
-    --text-lg: 1.125rem;
+    --text-lg: 1.40625rem;   /* was 1.125rem */
     --text-lg--line-height: calc(1.75 / 1.125);
-    --text-xl: 1.25rem;
-    --text-2xl: 1.5rem;
+    --text-xl: 1.5625rem;    /* was 1.25rem */
+    --text-2xl: 1.875rem;    /* was 1.5rem */
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;

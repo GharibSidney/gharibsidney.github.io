@@ -17,9 +17,6 @@ export const Publications = () => {
             <p className="text-muted-foreground mb-2">
               Robotics and Computer-Integrated Manufacturing • 2024
             </p>
-            <p className="text-sm mb-2">
-              Contributed to the integration of detection and classification models, focusing on 3D hand reconstruction and finger orientation tracking in 3D environments.
-            </p>
             <div className="flex gap-2">
               <Badge variant="outline">Computer Vision</Badge>
               <Badge variant="outline">Deep Learning </Badge>
