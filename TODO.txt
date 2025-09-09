@@ -1,4 +1,4 @@
 - Fix socials on mobile
-- Fix font scale
 - Change color of stinky scroll
 - Make photo bigger
+- Add Github link to website

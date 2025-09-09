@@ -18,7 +18,7 @@ export const Awards = () => {
                                 <h3>Research Participation and Initiation Unit - Polytechnique Montréal</h3>
                                 {/* <Badge variant="secondary">Current</Badge> */}
                             </div>
-                            <p className="text-muted-foreground mb-2">Value: 1 500$ - 2024-2025 </p>
+                            <p className="text-muted-foreground mb-2">Value: $1,500 - 2024-2025 </p>
                         </div>
                         <Separator />
                         <div>

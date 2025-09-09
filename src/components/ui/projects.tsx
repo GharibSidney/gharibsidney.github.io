@@ -4,7 +4,7 @@ import { Badge } from "./badge";
 
 export const Projects = () => {
   return (
-    <Card className="h-full flex flex-col max-h-128">
+    <Card className="h-full flex flex-col max-h-136">
       <CardHeader>
         <CardTitle>Featured Projects</CardTitle>
         <CardDescription>Some of my notable personal and professional project</CardDescription>
@@ -25,7 +25,7 @@ export const Projects = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   Developed and trained vision models to detect and quantify waste from recycle bin to containers.
                 </p>
               </CardContent>
@@ -43,7 +43,7 @@ export const Projects = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   A comprehensive platform for creating interactive data visualizations with real-time analytics and collaborative features.
                 </p>
               </CardContent>
@@ -59,7 +59,7 @@ export const Projects = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   Google Chrome extension to enhance email writing productivity.
                 </p>
               </CardContent>
@@ -75,7 +75,7 @@ export const Projects = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   You like my Website? Feel free to copy it! The repo's link is available on the red button.
                 </p>
               </CardContent>
