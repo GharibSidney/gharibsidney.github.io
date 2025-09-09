@@ -1,4 +1,3 @@
-- Fix socials on mobile
 - Change color of stinky scroll
-- Make photo bigger
 - Add Github link to website
+- Add CV (up to date)
