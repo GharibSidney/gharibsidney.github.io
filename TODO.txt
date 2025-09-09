@@ -2,3 +2,4 @@
 - Fix font scale
 - Added website link (github)
 - Change color of stinky scroll
+- Make photo bigger
