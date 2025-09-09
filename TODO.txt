@@ -1,3 +1,2 @@
-- Change color of stinky scroll
 - Add Github link to website
 - Add CV (up to date)

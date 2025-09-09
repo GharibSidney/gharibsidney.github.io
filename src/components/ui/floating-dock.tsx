@@ -89,29 +89,6 @@ const FloatingDockMobile = ({
   );
 };
 
-// const FloatingDockDesktop = ({
-//   items,
-//   className,
-// }: {
-//   items: { title: string; icon: React.ReactNode; href: string }[];
-//   className?: string;
-// }) => {
-//   let mouseX = useMotionValue(Infinity);
-//   return (
-//     <motion.div
-//       onMouseMove={(e) => mouseX.set(e.pageX)}
-//       onMouseLeave={() => mouseX.set(Infinity)}
-//       className={cn(
-//         "mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-50 justify-center px-4 pb-3 md:flex dark:bg-neutral-900",
-//         className,
-//       )}
-//     >
-//       {items.map((item) => (
-//         <IconContainer mouseX={mouseX} key={item.title} {...item} />
-//       ))}
-//     </motion.div>
-//   );
-// };
 // Version with colomn
 const FloatingDockDesktop = ({
   items,
