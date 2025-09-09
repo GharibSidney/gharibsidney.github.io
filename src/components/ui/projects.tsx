@@ -4,7 +4,7 @@ import { Badge } from "./badge";
 
 export const Projects = () => {
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="h-full flex flex-col max-h-128">
       <CardHeader>
         <CardTitle>Featured Projects</CardTitle>
         <CardDescription>Some of my notable personal and professional project</CardDescription>
