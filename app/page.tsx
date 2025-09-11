@@ -15,12 +15,10 @@ export default function Home() {
               <AvatarImage src={"/moi.jpg"} alt="Photo" />
               <AvatarFallback>SG</AvatarFallback>
             </Avatar>
-                    <FloatingDockDemo></FloatingDockDemo>
+            <FloatingDockDemo></FloatingDockDemo>
           </div>
-
           {/* Content */}
           <div className="flex-1 text-center md:text-left">
-            {/* <SpotlightPreview></SpotlightPreview> */}
             <h1 className="mb-4 md:text-3xl text-gray-200 mb-5 bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center font-bold">Sidney Gharib - Software Developer</h1>
             <span className="mb-6 text-muted-foreground items text-lg">
               I just graduated from <LinkPreview url="https://www.polymtl.ca/" className="font-bold">
