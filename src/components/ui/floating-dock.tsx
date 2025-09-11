@@ -43,12 +43,12 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className={cn("relative block md:hidden left-60 bottom-2", className)}>
+    <div className={cn("relative block md:hidden left-70 bottom-3", className)}>
       <AnimatePresence>
         {open && (
           <motion.div
             layoutId="nav"
-            className="absolute inset-x-0 bottom-full mb-2 flex flex-col gap-2 "
+            className="absolute inset-x-0 bottom-full mb-2 flex flex-col gap-2"
           >
             {items.map((item, idx) => (
               <motion.div
@@ -70,7 +70,7 @@ const FloatingDockMobile = ({
                 <a
                   href={item.href}
                   key={item.title}
-                  className="flex h-15 w-15 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
                 >
                   <div className="h-10 w-10">{item.icon}</div>
                 </a>
@@ -81,7 +81,7 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-15 w-15 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
+        className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
       >
         <IconLayoutNavbarCollapse className="h-10 w-10 text-neutral-500 dark:text-neutral-400" />
       </button>
@@ -103,8 +103,8 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden rounded-2xl bg-gray-50 px-4 py-3 md:grid dark:bg-neutral-900",
-        "grid-cols-2 gap-4 place-items-center",
+        "max-w-xs hidden rounded-2xl bg-gray-50 px-5 py-2 md:grid dark:bg-neutral-900",
+        "grid-cols-4 gap-4 place-items-center m-2 mx-auto",
         className,
       )}
     >
