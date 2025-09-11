@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: [
-      "api.microlink.io", // Microlink Image Preview
-    ],
+    unoptimized: true
   },
-};
+  basePath: '/website-sidney2.0', // This matches your repository name
+  assetPrefix: '/website-sidney2.0'
+}
 
-module.exports = nextConfig;
-
+module.exports = nextConfig
