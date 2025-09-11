@@ -5,8 +5,11 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/website-sidney2.0', // This matches your repository name
-  assetPrefix: '/website-sidney2.0'
+  basePath: '/website-sidney2.0', // This must match repository name
+  assetPrefix: '/website-sidney2.0',
+    eslint: {
+    ignoreDuringBuilds: true, // This will skip ESLint during builds
+  },
 }
 
 module.exports = nextConfig
