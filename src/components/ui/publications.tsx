@@ -20,7 +20,7 @@ export const Publications = () => {
             <div className="flex gap-2">
               <Badge variant="outline">Computer Vision</Badge>
               <Badge variant="outline">Deep Learning </Badge>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110"><Badge variant="destructive">Paper</Badge></a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110"><Badge className="text-base" variant="destructive">Paper</Badge></a>
             </div>
             <StickyScrollRevealDemo />
           </div>
