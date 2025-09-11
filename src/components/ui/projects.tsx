@@ -71,7 +71,7 @@ export const Projects = () => {
                   <Badge variant="outline">React</Badge>
                   <Badge variant="outline">TypeScript</Badge>
                   <Badge variant="outline">Next.js</Badge>
-                  <a href="#"><Badge variant="destructive">GitHub</Badge></a>
+                  <a href="https://github.com/GharibSidney/website-sidney2.0"><Badge variant="destructive">GitHub</Badge></a>
                 </div>
               </CardHeader>
               <CardContent>
