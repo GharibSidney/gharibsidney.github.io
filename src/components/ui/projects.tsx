@@ -76,7 +76,7 @@ export const Projects = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-base text-muted-foreground">
-                  You like my Website? Feel free to copy it! The repo's link is available on the red button.
+                  You like my Website? Feel free to copy it! The repo&#39;s link is available on the red button.
                 </p>
               </CardContent>
             </Card>
