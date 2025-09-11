@@ -3,26 +3,35 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./car
 import { Badge } from "./badge";
 import { Separator } from "./Separator";
 import { StickyScrollRevealDemo } from "./StickyScrollRevealDemo"
+
 export const Publications = () => {
   return (
-    <Card>
+    <Card className="h-full">
       <CardHeader>
         <CardTitle>Scientific Publications</CardTitle>
         <CardDescription>My contributions to research and academia</CardDescription>
       </CardHeader>
-      <CardContent className="space-y-6">
-        <div className="space-y-4 ">
+      <CardContent className="space-y-6 pb-8 overflow-y-auto">
+        <div className="space-y-4 min-h-0">
           <div className="border-l-2 border-primary pl-4">
-            <h3 ><a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110">  MuViH: Multi-View Hand gesture dataset and recognition pipeline for human–robot interaction in a collaborative robotic finishing platform </a></h3>
+            <h3>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110">
+                MuViH: Multi-View Hand gesture dataset and recognition pipeline for human–robot interaction in a collaborative robotic finishing platform
+              </a>
+            </h3>
             <p className="text-muted-foreground mb-2">
               Robotics and Computer-Integrated Manufacturing • 2024
             </p>
-            <div className="flex gap-2">
+            <div className="flex gap-2 mb-4">
               <Badge variant="outline">Computer Vision</Badge>
-              <Badge variant="outline">Deep Learning </Badge>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110"><Badge className="text-base" variant="destructive">Paper</Badge></a>
+              <Badge variant="outline">Deep Learning</Badge>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0736584525000110">
+                <Badge className="text-base" variant="destructive">Paper</Badge>
+              </a>
             </div>
-            <StickyScrollRevealDemo />
+            <div className="mb-8">
+              <StickyScrollRevealDemo />
+            </div>
           </div>
           <Separator />
         </div>
