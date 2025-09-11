@@ -40,7 +40,7 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex justify-center h-half",
+          "sm:flex justify-center h-half",
           containerClassName
         )}
       >
