@@ -4,6 +4,7 @@ import { Projects } from "./projects"
 import { Experience } from "./Experience"
 import { Publications } from "./publications";
 import { Awards } from "./Awards"
+import {Company} from "./company"
 
 export function TabsDemo() {
   const tabs = [
@@ -21,7 +22,7 @@ export function TabsDemo() {
       value: "experience",
       content: (
         <div className="h-full overflow-hidden">
-          <Experience/>
+          <Experience />
         </div>
       ),
     },
@@ -34,12 +35,21 @@ export function TabsDemo() {
         </div>
       ),
     },
-        {
+    {
       title: "Awards",
       value: "awards",
       content: (
         <div className="h-full overflow-hidden">
           <Awards />
+        </div>
+      ),
+    },
+    {
+      title: "Company",
+      value: "company",
+      content: (
+        <div className="h-full overflow-hidden">
+          <Company />
         </div>
       ),
     },
