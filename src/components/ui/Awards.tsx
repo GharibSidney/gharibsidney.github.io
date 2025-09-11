@@ -1,6 +1,5 @@
 "use client";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./card";
-import { Badge } from "./badge";
 import { Separator } from "./Separator";
 
 export const Awards = () => {
