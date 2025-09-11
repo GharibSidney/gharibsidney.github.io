@@ -7,7 +7,7 @@ export const Company = () => {
         <Card className="h-full flex flex-col max-h-90">
             <CardHeader>
                 <CardTitle>Walphyre - Software Company</CardTitle>
-                <CardDescription>Walphyre is a software company confounded by me and my brother Jason Gharib</CardDescription>
+                <CardDescription>Walphyre is a software company cofounded by me and my brother Jason Gharib</CardDescription>
             </CardHeader>
             <CardContent className="h-full overflow-hidden">
                 <div className="h-full overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 hover:scrollbar-thumb-gray-500">
