@@ -12,7 +12,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="flex-shrink-0 ">
             <Avatar className="w-70 h-70 mb-2">
-              <AvatarImage src={"/website-sidney2.0/moi.jpg"} alt="Photo" />
+              <AvatarImage src={"/moi.jpg"} alt="Photo" />
               <AvatarFallback>SG</AvatarFallback>
             </Avatar>
                     <FloatingDockDemo></FloatingDockDemo>

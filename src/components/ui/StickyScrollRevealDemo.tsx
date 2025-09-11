@@ -11,7 +11,7 @@ const content = [
         content: (
             <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
                 <img
-                    src="/website-sidney2.0/publications_images/MuViH/rgb_d_view.png" width={300}
+                    src="/publications_images/MuViH/rgb_d_view.png" width={300}
                     height={300}
                     className="h-full w-full object-cover"
                     alt="rgbd-view image"
@@ -26,7 +26,7 @@ const content = [
         content: (
             <div className="flex h-full w-full items-center justify-center text-white">
                 <img
-                    src="/website-sidney2.0/publications_images/MuViH/big_calibration.png"
+                    src="/publications_images/MuViH/big_calibration.png"
                     width={300}
                     height={300}
                     className="h-full w-full object-cover"
@@ -42,7 +42,7 @@ const content = [
         content: (
             <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
                 <img
-                    src="/website-sidney2.0/publications_images/MuViH/pointing_1.png"
+                    src="/publications_images/MuViH/pointing_1.png"
                     width={300}
                     height={300}
                     className="h-full w-full object-cover"
@@ -58,7 +58,7 @@ const content = [
         content: (
             <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
                 <img
-                    src="/website-sidney2.0/publications_images/MuViH/graph_pointing_1.png"
+                    src="/publications_images/MuViH/graph_pointing_1.png"
                     width={300}
                     height={300}
                     className="h-full w-full object-cover"
@@ -73,7 +73,7 @@ const content = [
         content: (
             <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
                 <img
-                    src="/website-sidney2.0/publications_images/MuViH/rgb_d_camera.jpg"
+                    src="/publications_images/MuViH/rgb_d_camera.jpg"
                     width={300}
                     height={300}
                     className="h-full w-full object-cover"
