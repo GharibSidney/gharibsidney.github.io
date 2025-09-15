@@ -24,6 +24,11 @@ export const Awards = () => {
                             <h3>Undergraduate Student Research Awards - CRSNG</h3>
                             <p className="text-muted-foreground mb-2">Value: $6,000 plus host institution contribution - Summer 2024</p>
                         </div>
+                        <Separator />
+                        <div>
+                            <h3>FRQNT - NSERC - Undergraduate Scholarship Supplements</h3>
+                            <p className="text-muted-foreground mb-2">Value: $1,500  - Summer 2024</p>
+                        </div>
                     </div>
                 </div>
             </CardContent>
