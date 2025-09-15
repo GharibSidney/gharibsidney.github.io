@@ -4,7 +4,7 @@ import { Separator } from "./Separator";
 
 export const Awards = () => {
     return (
-        <Card className="h-full flex flex-col max-h-70">
+        <Card className="h-full flex flex-col max-h-95">
             <CardHeader>
                 <CardTitle>Awards</CardTitle>
                 <CardDescription>Research awards</CardDescription>
@@ -26,7 +26,7 @@ export const Awards = () => {
                         </div>
                         <Separator />
                         <div>
-                            <h3>FRQNT - NSERC - Undergraduate Scholarship Supplements</h3>
+                            <h3>FRQNT - NSERC - Undergraduate Scholarship Supplements for Research</h3>
                             <p className="text-muted-foreground mb-2">Value: $1,500  - Summer 2024</p>
                         </div>
                     </div>
