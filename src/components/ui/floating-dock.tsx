@@ -89,7 +89,6 @@ const FloatingDockMobile = ({
   );
 };
 
-// Version with colomn
 const FloatingDockDesktop = ({
   items,
   className,
@@ -99,19 +98,25 @@ const FloatingDockDesktop = ({
 }) => {
   const mouseX = useMotionValue(Infinity);
   return (
-    <motion.div
-      onMouseMove={(e) => mouseX.set(e.pageX)}
-      onMouseLeave={() => mouseX.set(Infinity)}
-      className={cn(
-        "max-w-xs hidden rounded-2xl bg-gray-50 px-5 py-2 md:grid dark:bg-neutral-900",
-        "grid-cols-4 gap-4 place-items-center m-2 mx-auto",
-        className,
-      )}
-    >
-      {items.map((item) => (
-        <IconContainer mouseX={mouseX} key={item.title} {...item} />
-      ))}
-    </motion.div>
+    <div className="relative hidden md:block">
+      <span className="absolute -top-3 left-6 bg-neutral-900 px-2 text-sm text-gray-400">
+        Contact information
+      </span>
+      <motion.div
+        onMouseMove={(e) => mouseX.set(e.pageX)}
+        onMouseLeave={() => mouseX.set(Infinity)}
+        className={cn(
+          "max-w-xs rounded-2xl bg-gray-50 px-5 py-2 grid dark:bg-neutral-900",
+          "grid-cols-4 gap-4 place-items-center m-2 mx-auto",
+          "border border-gray-300 dark:border-gray-700",
+          className,
+        )}
+      >
+        {items.map((item) => (
+          <IconContainer mouseX={mouseX} key={item.title} {...item} />
+        ))}
+      </motion.div>
+    </div>
   );
 };
 

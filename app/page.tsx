@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8 mb-2">
           {/* Profile Image */}
           <div className="flex-shrink-0 ">
-            <Avatar className="w-70 h-70 mb-2">
+            <Avatar className="w-70 h-70 mb-5">
               <AvatarImage src={"/moi.jpg"} alt="Photo" />
               <AvatarFallback>SG</AvatarFallback>
             </Avatar>
