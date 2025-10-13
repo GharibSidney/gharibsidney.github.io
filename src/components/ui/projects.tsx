@@ -1,7 +1,8 @@
 "use client";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./card";
 import { Badge } from "./badge";
-
+import { InstagramEmbed } from "@/src/components/ui/instagram";
+import {Fabricationboisplus} from  "@/src/components/ui/fabricationboisplus"
 export const Projects = () => {
   return (
     <Card className="h-full flex flex-col max-h-136">
@@ -19,15 +20,13 @@ export const Projects = () => {
                   <Badge variant="outline">PyTorch</Badge>
                   <Badge variant="outline">Computer Vision</Badge>
                   <Badge variant="outline">Deep Learning</Badge>
-                  <a href="https://www.linkedin.com/posts/palais-des-congres-de-montreal_palaismontraezal-ia-aiproject-activity-7361014861155160064-xJlP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkuZokBAndaRMfyPe_mf1NNwEOkDJGAFNU">
-                    <Badge variant="destructive">LinkedIn Post</Badge>
-                  </a>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-base text-muted-foreground">
+                {/* <p className="text-base text-muted-foreground mb-4">
                   Developed and trained vision models to detect and quantify waste from recycle bin to containers.
-                </p>
+                </p> */}
+                <InstagramEmbed></InstagramEmbed>
               </CardContent>
             </Card>
             <Card>
@@ -43,9 +42,10 @@ export const Projects = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-base text-muted-foreground">
+                {/* <p className="text-base text-muted-foreground">
                   A comprehensive platform for creating interactive data visualizations with real-time analytics and collaborative features.
-                </p>
+                </p> */}
+                <Fabricationboisplus></Fabricationboisplus>
               </CardContent>
             </Card>
             <Card>
