@@ -1,1 +1,4 @@
 - Make contact more obvious 
+- Add link to fabrication plus on carousel 
+- Add link to PharmaGPT
+- Add link to Jason's linkedin 
