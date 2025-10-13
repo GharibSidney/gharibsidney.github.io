@@ -12,14 +12,14 @@ export function InstagramEmbed() {
       <div className="flex justify-center">
         <button
           onClick={() => setIsOpen(true)}
-          className="relative w-[300px] h-[200px] overflow-hidden rounded-lg hover:opacity-90 transition-opacity group"
+          className="relative w-[300px] h-[160px] overflow-hidden rounded-lg hover:opacity-90 transition-opacity group"
         >
           <div className="relative w-full h-full">
             <iframe
               src="https://www.instagram.com/reel/DN1QUPxZIZn/embed"
               width="300"
               height="400"
-              style={{ border: 0, marginTop: '-40px', pointerEvents: 'none' }}
+              style={{ border: 0, marginTop: '-200px', pointerEvents: 'none' }}
               allow="encrypted-media"
               className="absolute"
             />
