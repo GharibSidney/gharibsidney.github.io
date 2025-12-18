@@ -20,7 +20,7 @@ export const Publications = () => {
               </a>
             </h3>
             <p className="text-muted-foreground mb-2">
-              Robotics and Computer-Integrated Manufacturing • 2024
+              Robotics and Computer-Integrated Manufacturing • 2025
             </p>
             <div className="flex gap-2 mb-4">
               <Badge variant="outline">Computer Vision</Badge>
