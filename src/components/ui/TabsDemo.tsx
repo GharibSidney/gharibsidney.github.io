@@ -44,15 +44,15 @@ export function TabsDemo() {
         </div>
       ),
     },
-    {
-      title: "Company",
-      value: "company",
-      content: (
-        <div className="h-full overflow-hidden">
-          <Company />
-        </div>
-      ),
-    },
+    // {
+    //   title: "Company",
+    //   value: "company",
+    //   content: (
+    //     <div className="h-full overflow-hidden">
+    //       <Company />
+    //     </div>
+    //   ),
+    // },
   ];
 
   return (

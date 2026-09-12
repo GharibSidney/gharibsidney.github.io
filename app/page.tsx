@@ -21,8 +21,9 @@ export default function Home() {
           <div className="flex-1 text-center md:text-left">
             <h1 className="mb-4 md:text-3xl text-gray-200 mb-5 bg-opacity-50 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-center font-bold">Sidney Gharib - Software Developer</h1>
             <span className="mb-6 text-muted-foreground items text-lg">
-              I just graduated from <LinkPreview url="https://www.polymtl.ca/" className="font-bold">
-              Polytechnique Montréal</LinkPreview> with a bachelor in Software Engineering.
+              I'm a master student in the <LinkPreview url="https://mistlab.ca/" className="font-bold">
+              MIST Lab</LinkPreview> at <LinkPreview url="https://www.polymtl.ca/" className="font-bold">
+              Polytechnique Montréal</LinkPreview>. I also hold a bachelor degree in Software Engineering.
               I am a passionate software developer and researcher with expertise in full-stack development,
               machine learning, and computer vision. I enjoy building applications
               that solve real-world problems and contributing to the scientific community through
