@@ -81,9 +81,23 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
+        className="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800 overflow-hidden"
       >
-        <IconLayoutNavbarCollapse className="h-10 w-10 text-neutral-500 dark:text-neutral-400" />
+        <IconLayoutNavbarCollapse className="relative z-10 h-10 w-10 text-neutral-500 dark:text-neutral-400" />
+        {!open && (
+          <motion.span
+            aria-hidden
+            className="pointer-events-none absolute inset-y-0 left-0 w-1/2 -skew-x-12 bg-gradient-to-r from-transparent via-white/70 to-transparent dark:via-white/20"
+            initial={{ x: "-100%" }}
+            animate={{ x: "300%" }}
+            transition={{
+              repeat: Infinity,
+              duration: 2.5,
+              ease: "easeInOut",
+              repeatDelay: 1.5,
+            }}
+          />
+        )}
       </button>
     </div>
   );
